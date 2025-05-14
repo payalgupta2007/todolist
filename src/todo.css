@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+h4 {
+  color: purple;
+  text-align: center;
+}
+.iconsbtn {
+  all: unset;
+  cursor: pointer;
+  margin-left: 15px;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  margin: 15px;
+  flex-wrap: wrap;
+}
+.header {
+  width: 40%;
+}
+input[type="search"] {
+  width: 100%;
+  margin: 15px;
+}
+input {
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-left: 10px;
+  width: 50%;
+}
+select {
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.savebtn {
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-left: 10px;
+  background-color: rgb(184, 130, 235);
+  color: white;
+}
+.btnTab {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.btnTab .savebtn {
+  flex: 1;
+}
+
+.items {
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: 2px 2px 0.5px grey;
+  text-align: justify;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
